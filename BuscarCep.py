@@ -22,3 +22,4 @@ def descobrir_cep(endereco_usuario):
    link_google = "https://www.google.com/search?q="
    requisicao_google = requests.get(f'{link_google}/{endereco_usuario}')
    return requisicao_google.url
+
