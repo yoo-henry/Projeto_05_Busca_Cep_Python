@@ -31,7 +31,7 @@ if pagina == "Buscar CEP":
 
 elif pagina == "Descobrir CEP":
     st.title("Descobrir CEP")
-    st.image("descobrir.png")
+    st.image("Descobrir.png")
     st.title("Descobrir CEP pelo Endereço")
     st.write("Digite o endereço (ex:Rua Olga, Barueri, SP)")
 
@@ -83,3 +83,4 @@ elif pagina == "Descobrir CEP":
                     st.write(resultado)
                 except Exception as e:
                     st.error(f"Ocorreu um erro ao descobrir CEP: {e}")
+
